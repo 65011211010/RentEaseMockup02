@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Netflix 7 วัน (มือถือ/ไอแพด/คอม)",
+      "price": 49,
+      "image": "netflix-7-days.png"
+    },
+    {
+      "id": 2,
+      "name": "Netflix 30 วัน (ส่วนตัว)",
+      "price": 119,
+      "image": "netflix-30-private.png"
+    },
+    {
+      "id": 3,
+      "name": "Netflix 30 วัน (ออฟการ์)",
+      "price": 65,
+      "image": "netflix-30-off.png"
+    },
+    {
+      "id": 4,
+      "name": "WeTV 30 วัน",
+      "price": 99,
+      "image": "wetv-30.png"
+    }
+  ]
+  

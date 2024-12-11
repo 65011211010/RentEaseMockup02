@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // สำหรับการนำทาง
+import banner from "../assets/banner.png"; // Correct path to import the image
+
 
 const Homepage = () => {
   // Mock Data
@@ -14,7 +16,7 @@ const Homepage = () => {
       price: 150,
       remaining: 5,
       image:
-        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg",
+        "https://ofisu.co.th/wp-content/uploads/2020/03/20106-1.jpg",
     },
     {
       id: 2,
@@ -22,7 +24,7 @@ const Homepage = () => {
       price: 200,
       remaining: 8,
       image:
-        "https://images.pexels.com/photos/6408284/pexels-photo-6408284.jpeg",
+        "https://cdn.ennxo.com/uploads/products/640/61c7dce94c3b4618a436483a43689ffa.jpg",
     },
     {
       id: 3,
@@ -30,7 +32,7 @@ const Homepage = () => {
       price: 120,
       remaining: 10,
       image:
-        "https://images.pexels.com/photos/116630/pexels-photo-116630.jpeg",
+        "https://homehub.co.th/wp-content/uploads/2023/11/-SHARP-PJ-SL164MG-1.png",
     },
     {
       id: 4,
@@ -38,7 +40,7 @@ const Homepage = () => {
       price: 300,
       remaining: 3,
       image:
-        "https://images.pexels.com/photos/1049687/pexels-photo-1049687.jpeg",
+        "https://www.boonthavorn.com/media/catalog/product/cache/c8e18eb09beb87d6ef2059f03284bd22/_/p/_product_image_1220868_1220868_1_2061.jpg",
     },
   ];
 
@@ -50,7 +52,7 @@ const Homepage = () => {
       price: 180,
       remaining: 6,
       image:
-        "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg",
+        "https://inwfile.com/s-n/gsli6j.jpg",
     },
     {
       id: 6,
@@ -58,7 +60,7 @@ const Homepage = () => {
       price: 400,
       remaining: 2,
       image:
-        "https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg",
+        "https://down-th.img.susercontent.com/file/th-11134207-7qukw-liy17u5b1rip4c",
     },
     {
       id: 7,
@@ -66,7 +68,7 @@ const Homepage = () => {
       price: 500,
       remaining: 4,
       image:
-        "https://images.pexels.com/photos/1591055/pexels-photo-1591055.jpeg",
+        "https://audiocity.co.th/pub/media/catalog/product/cache/3d76ed96114a1371f42b83296eccd6e6/w/a/wanbo-mini-99.jpg",
     },
     {
       id: 8,
@@ -74,7 +76,7 @@ const Homepage = () => {
       price: 800,
       remaining: 1,
       image:
-        "https://images.pexels.com/photos/28857430/pexels-photo-28857430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://audiocity.co.th/pub/media/catalog/product/cache/3d76ed96114a1371f42b83296eccd6e6/j/x/jx12-pkm12n.jpg",
     },
   ];
 
@@ -92,7 +94,7 @@ const Homepage = () => {
       {/* Promotion Banner Section */}
       <section className="mb-8">
         <img
-          src="https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src={banner}
           alt="Promotion Banner"
           className="w-full h-64 object-cover rounded-lg shadow-md"
         />

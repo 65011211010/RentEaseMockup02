@@ -1,7 +1,7 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
-import logo from "../assets/logo.jpg"; // Correct path to import the image
+import logo from "../assets/logo.png"; // Correct path to import the image
 
 const Navbar = ({ toggleSidebar, isLoggedIn, handleLogin, handleLogout }) => {
   const navigate = useNavigate(); // Initialize navigate function

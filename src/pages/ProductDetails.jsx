@@ -12,7 +12,7 @@ const ProductDetails = () => {
       description: "เก้าอี้สำนักงานคุณภาพสูง เหมาะสำหรับการใช้งานในออฟฟิศ",
       price: 150,
       image:
-        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg",
+        "https://ofisu.co.th/wp-content/uploads/2020/03/20106-1.jpg",
       owner: {
         name: "คุณสมชาย",
         profileImage:
@@ -38,7 +38,7 @@ const ProductDetails = () => {
         "โต๊ะพับขนาดเล็ก ใช้ได้ในทุกสถานการณ์ พกพาสะดวกและทนทาน",
       price: 200,
       image:
-        "https://images.pexels.com/photos/6408284/pexels-photo-6408284.jpeg",
+        "https://cdn.ennxo.com/uploads/products/640/61c7dce94c3b4618a436483a43689ffa.jpg",
       owner: {
         name: "คุณอรทัย",
         profileImage:
